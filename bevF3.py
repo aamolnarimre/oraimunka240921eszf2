@@ -26,7 +26,24 @@ else:
 
 #Tesztelés:
 #határértékekre: 59,69,80,0,60,70,79,89,100
+#BE: 59: Ki: semmi Műküdés: hibás , mert = jel hiányzik a szám felé ugyanez igaz 69,79,89,100-nál
+
 #határo kívüli értékek: -10, 105
+#Be: -10 Ki: érvénytelen százalék! Működés: ok
+#Be: 105 Ki: érvénytelen százalék! Működés: ok
+
 #belső értékek: 10, 62, 75, 88, 94
-# Be: Ki: Működés:
+#Be: 10 Ki: elégtelen Működés
+# Be: 62 Ki: elégséges Működés:ok
+# Be: 75 Ki: közepes Működés: ok
+# Be: 88 Ki: jó Működés: ok
+# Be: 94 Ki: jeles Működés: ok
+
 #Pl: Be:59 Ki:elégtelen  Működés: ok
+
+
+
+
+
+
+
